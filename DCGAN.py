@@ -27,7 +27,7 @@ class Config(object):
     save_path = './data/imgs2' 
 
     d_every = 1  # train discriminator every batch
-    g_every = 5  # train discriminator every 5 batches
+    g_every = 5  # train generator every 5 batches
     save_every = 10  # save model every 10 epochs
     netd_path = "./data/imgs2/netd.pth"
     netg_path = "./data/imgs2/netg.pth"
